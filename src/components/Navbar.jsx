@@ -18,7 +18,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0,0);
           }}>
-            <img src={logo} alt="logo" className='w-9 h-9 object-contain'/>
+            <img src={logo} alt="logo" className='w-9 h-9 object-contain' width={"50px"} height={"50px"}/>
             <p className='text-white text-[18px] font-bold cursor-pointer'>Albiona <span className='sm:block hidden'>| Frontend Developer</span></p>
           </Link>
             <ul className='list-none hidden sm:flex flex-row gap-10'>
