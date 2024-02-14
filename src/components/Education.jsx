@@ -12,6 +12,12 @@ import { education } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+const EducationCard =({ education})=>{
+  <VerticalTimelineElement
+  contentStyle={{background:'#1d183'}}>
+
+  </VerticalTimelineElement>
+}
 
 const Education = () => {
   return (
@@ -24,7 +30,9 @@ const Education = () => {
 
     <div className="mt-20 flex flex-col">
       <VerticalTimeline>
-        {education.map((education))}
+        {education.map((educations, index)=>{
+          <EducationCard key={index} education={education}/>
+        })}
       </VerticalTimeline>
 
 
