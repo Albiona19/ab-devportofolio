@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    burgerking,
   } from "../assets";
   
   export const navLinks = [
@@ -195,16 +196,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "SpaceX App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "SpaceX App is an application that was built with react hooks, and tailwind and receives data from the api",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "hooks",
           color: "green-text-gradient",
         },
         {
@@ -213,19 +214,19 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Albiona19/spaceX-App",
     },
     {
-      name: "Job IT",
+      name: "Hosting Company",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Hosting Company has offered a high level of services in the area of hosting for your website.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mediaquery",
           color: "green-text-gradient",
         },
         {
@@ -234,19 +235,19 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Albiona19/hosting-company",
     },
     {
-      name: "Trip Guide",
+      name: "Bind Restaurant",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Bind Restaurant App is an application for restaurants that offers the user to see the number of offers, part of the menus",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "components",
           color: "green-text-gradient",
         },
         {
@@ -255,7 +256,32 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Albiona19/restaurant-react-app",
+    },
+    {
+      name: "Wave Pharm",
+      description:
+        "Wave Website pharmacy website to make it easy for users to contact you and see more about the pharmacy.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "jss",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "wordpress converted theme",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: burgerking,
+      source_code_link: "https://github.com/Albiona19/wavepharmpr",
     },
   ];
   
