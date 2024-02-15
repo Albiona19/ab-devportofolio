@@ -26,23 +26,25 @@ const Contact = () => {
       [name]: value,
     });
   };
-
+// htq-VuTjJ9de4dO2B
+// template_rtnirux
+// service_xf8lyn6
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_xf8lyn6',
+        'template_rtnirux',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Albiona",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "ab47853@ubt-uni.net",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'htq-VuTjJ9de4dO2B'
       )
       .then(
         () => {
