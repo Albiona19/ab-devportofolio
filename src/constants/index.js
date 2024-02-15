@@ -170,27 +170,25 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "One of the best students at UBT with an average grade of 8.0 and very engaged in the lectures and all the projects at UBT!",
+      name: "Computer science and engineering",
+      company: "UBT",
+      image: "https://th.bing.com/th/id/OIP.87SuGJmPdpL_fHOc4kKXgwHaHa?rs=1&pid=ImgDetMain",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "a very good student and regular in her assignments and was chosen as a junior front end developer because of her dedication",
+      name: "Front End Developer",
+      designation: "Beetroot Academy",
+      company: "Swedish course",
+      image: "https://th.bing.com/th/id/OIP.65S2YT4yMiw4iOtGOKQcXgAAAA?rs=1&pid=ImgDetMain!",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The best student in JavaScript development, chosen as a junior JavaScript developer, is involved in all projects at ICK!",
+      name: "Java Script Developer",
+      designation: "Innovation Centre of Kosovo",
+      image: "https://th.bing.com/th/id/OIP.mo1MGpGOdWxVopCaeO4X9QHaHa?rs=1&pid=ImgDetMain",
     },
   ];
   
