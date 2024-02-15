@@ -73,7 +73,7 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "Java",
       icon: typescript,
     },
     {
@@ -81,7 +81,7 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
+      name: "Sass",
       icon: redux,
     },
     {
@@ -109,7 +109,7 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
+      name: "WordPress",
       icon: docker,
     },
   ];
