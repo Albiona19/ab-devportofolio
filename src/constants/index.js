@@ -55,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "React Native Developer",
+      title: "React JS Developer",
       icon: creator,
     },
   ];
