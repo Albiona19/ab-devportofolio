@@ -5,7 +5,9 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
+import resume from "../assets/albionacv.pdf"
 import { slideIn } from "../utils/motion";
+import  "../index.css"
 
 const Contact = () => {
   const formRef = useRef();
@@ -41,7 +43,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Albiona",
           from_email: form.email,
-          to_email: "ab47853@ubt-uni.net",
+          to_email: form.email,
           message: form.message,
         },
         'htq-VuTjJ9de4dO2B'
@@ -89,7 +91,7 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="Full name"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -100,7 +102,7 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Email"
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
@@ -115,13 +117,16 @@ const Contact = () => {
               className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
-
+        <div className="flex flex-direction gap-4 responsive">
           <button
             type='submit'
             className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
           >
             {loading ? "Sending..." : "Send"}
           </button>
+          <a href={resume}  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' download="ab-resume">Or download Resume</a>
+
+        </div>
         </form>
       </motion.div>
 
