@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import resume from "../assets/albionacv.pdf"
+
 import { slideIn } from "../utils/motion";
 import  "../index.css"
 
