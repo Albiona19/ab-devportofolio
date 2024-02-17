@@ -172,7 +172,7 @@ import {
       testimonial:
         "One of the best students at UBT with an average grade of 8.0 and very engaged in the lectures and all the projects at UBT!",
       name: "Computer science and engineering",
-      company: "UBT",
+      company: "UBT - Higher Education Institution",
       image: "https://th.bing.com/th/id/OIP.87SuGJmPdpL_fHOc4kKXgwHaHa?rs=1&pid=ImgDetMain",
     },
     {
