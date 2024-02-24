@@ -125,7 +125,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <a href={resume}  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' download="ab-resume">Or download Resume</a>
+          <a href={resume}  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' download="AlbionaBerisha_CV">Or download Resume</a>
 
         </div>
         </form>
