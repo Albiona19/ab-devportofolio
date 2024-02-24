@@ -29,6 +29,7 @@ const Contact = () => {
       [name]: value,
     });
   };
+  // id for contact form
 // htq-VuTjJ9de4dO2B
 // template_rtnirux
 // service_xf8lyn6
