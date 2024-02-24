@@ -6,6 +6,8 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
+// feedback
+
 const FeedbackCard = ({
   index,
   testimonial,
