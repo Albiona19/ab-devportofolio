@@ -55,7 +55,7 @@ const EducationCard = ({ education }) => {
     </VerticalTimelineElement>
   );
 };
-
+// education
 const Education = () => {
   return (
     <>
