@@ -37,6 +37,7 @@ const ServiceCard=({index,title,icon})=>{
 }
 
 const About = () => {
+  // info section
 
   return (
     <>

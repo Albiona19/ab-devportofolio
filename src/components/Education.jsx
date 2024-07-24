@@ -67,7 +67,7 @@ const Education = () => {
           Education.
         </h2>
       </motion.div>
-{/* education array  */}
+{/* education array UBT */}
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>
           {education.map((education, index) => (
