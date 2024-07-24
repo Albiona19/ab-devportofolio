@@ -5,7 +5,7 @@ import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import resume from "../assets/albionacv.pdf"
+import resume from "../assets/tech/ab-cv.pdf"
 
 import { slideIn } from "../utils/motion";
 import  "../index.css"
@@ -127,7 +127,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-          <a href={resume}  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' download="AlbionaBerisha_CV">Or download Resume</a>
+          <a href={resume}  className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary' download="AlbionaBerisha-V">Or download Resume</a>
 
         </div>
         </form>
